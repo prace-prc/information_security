@@ -43,7 +43,7 @@ def verifySHA512(decryptedSHA512, decryptedMsg):
 def main():
     BLOCK_SIZE = 16
     KEY_SIZE = 32
-    message = b'게이볼그 삭제해 씹년아'
+    message = b'Information Security'
 
     key = Random.new().read(KEY_SIZE)
     iv = Random.new().read(BLOCK_SIZE)
